@@ -2,7 +2,7 @@
 import { configure } from '@storybook/react';
 // import 'react-chromatic/storybook-addon';
 import addHeadWarning from './head-warning';
-
+import 'bootstrap/dist/css/bootstrap.css'
 addHeadWarning('Preview');
 
 function loadStories() {
